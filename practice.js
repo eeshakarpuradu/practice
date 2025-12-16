@@ -35,3 +35,30 @@ removePoints();
 
 console.log(points);
 
+let age = 100;
+
+if(age < 100) {
+    console.log("You can't get the card");
+}
+else if(age === 100){
+    console.log("card!!");
+}
+else {
+    console.log("not eligible")
+}
+
+let isDiscountCode = true
+
+function processDiscount() {
+    if(isDiscountCode)
+    {
+        console.log("You've got discount");
+        isDiscountCode = false
+    }
+    else {
+        console.log("You've got no discount!");
+    }
+}
+
+processDiscount()
+processDiscount()

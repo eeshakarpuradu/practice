@@ -1,5 +1,5 @@
 
-let count = 0;
+/*let count = 0;
 
 function increment() {
     count++;
@@ -17,10 +17,20 @@ function save() {
 
 function reset() {
     document.getElementById("save-el").textContent = " ";
-}
+}*/
 /*let welcomeEl = document.getElementById("welcome-el");
 let name = "Eesha";
 let greeting = "Hi, my name is ";
 let welcomeMsg = greeting + name + "!";
 welcomeEl.innerText = welcomeMsg;
 welcomeEl.innerText = welcomeMsg + " 👋";*/
+
+let sentence = ["Hello", "my", "name", "is", "Per"] 
+let greetingEl = document.getElementById("welcome-el")
+
+// Render the sentence in the greetingEl paragraph using a for loop and .textContent
+
+for (let i = 0; i < sentence.length; i++){
+    greetingEl.textContent += sentence[i] + " "
+    
+}

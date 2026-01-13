@@ -90,5 +90,31 @@ function totalTime() {
 let totalt = totalTime()
 console.log(totalt)*/
 
-let ran = Math.random() * 6
-console.log(ran)
+//let ran = Math.random() * 6
+//console.log(ran)
+
+/*
+let person = {
+    name: "Eesha",
+    age: 20,
+    country: "India"
+}
+
+function logdate(){
+    let data = person.name + " is " + person.age + " years old and lives in " + person.country
+    console.log(data)
+}
+
+logdate();
+*/
+
+let largecount = ["Goa", "India", "USA", "Indonasia", "Central park"]
+
+console.log(largecount.pop());
+console.log(largecount);
+console.log(largecount.push("Paksitan"));
+console.log(largecount);
+console.log(largecount.shift());
+console.log(largecount);
+console.log(largecount.unshift("China"));
+console.log(largecount);

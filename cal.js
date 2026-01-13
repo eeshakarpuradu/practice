@@ -1,3 +1,4 @@
+/*
 let num1 = 8
 let num2 = 2
 document.getElementById("num1-el").textContent = num1
@@ -36,3 +37,27 @@ function div() {
 function reset() {
     document.getElementById("sum-el").textContent = "";
 }
+    */
+let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊"]
+let appleShelf = document.getElementById("apple-shelf")
+let orangeShelf = document.getElementById("orange-shelf")
+
+// Create a function that puts the apples onto the appleShelf
+// and the oranges onto the orangeShelf. Use a for loop,
+// a conditional statement, and the textContent property.
+
+function sortfruit(){
+    for(i = 0; i<fruit.length(); i++) {
+    console.log(fruit[i]);
+    if (fruit[i] === "🍎"){
+        appleShelf.textContent += "🍎";
+    }
+    else if(fruit[i] === "🍊") {
+        orangeShelf.textContent += "🍊";
+    }
+}
+}
+
+sortfruit()
+
+
